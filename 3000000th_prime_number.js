@@ -4,7 +4,7 @@ let isPrime;
 let countPrime = 1;
 let primeCandidate = 1;
 
-while(countPrime < 500000) {
+while(countPrime < 3000000) {
   primeCandidate+=2;
   isPrime = true;
   for(let divisor = 3; divisor <= Math.sqrt(primeCandidate) ; divisor+=2) {
